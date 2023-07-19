@@ -1,3 +1,11 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+business
+entertainment
+general
+health
+science
+sports
+technology
