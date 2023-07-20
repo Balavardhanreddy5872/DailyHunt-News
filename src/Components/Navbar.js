@@ -9,6 +9,7 @@ export default class Navbar extends Component {
             <div>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
                     <div className="container-fluid">
+                        <img style={{width:'20px',margin:'5px'}} src='https://downloadr2.apkmirror.com/wp-content/uploads/2023/07/12/64b2507034eb4_com.eterno-384x384.png' alt='DailyHunt'/>
                         <Link className="navbar-brand" to="/">DailyHunt</Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -36,9 +37,6 @@ export default class Navbar extends Component {
                                 <li className="nav-item">
                                     <Link className="nav-link active" to="/technology">Technology</Link>
                                 </li>
-
-
-
                             </ul>
                         </div>
                     </div>
